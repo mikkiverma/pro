@@ -32,15 +32,7 @@
     height: 150px;
 }
 
-@media(min-width:500px){
- #nav2 img {
-    height: 40px;
-    transition: 0.5s;
-}
-#nav2 img:hover {
-    transform: scale(1.5);
-}   
-}
+
 
 .middle{
 
