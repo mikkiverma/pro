@@ -32,12 +32,14 @@
     height: 150px;
 }
 
-#nav2 img {
+@media(min-width:500px){
+ #nav2 img {
     height: 40px;
     transition: 0.5s;
 }
 #nav2 img:hover {
     transform: scale(1.5);
+}   
 }
 
 .middle{
@@ -83,9 +85,7 @@
     border-radius: 22px;
     transition: 0.5s;
 }
-.midimg img:hover {
-   transform: scale(1.05);
-}
+
 
 .personalinfo{
     display: flex;
